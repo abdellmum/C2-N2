@@ -4,5 +4,28 @@
     background-color: blueviolet;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
-.services__tittle
+.services__general{
+    width: 100%²;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.services__cards{
+    display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: auto;
+  align-content: space-around
+} .services__cards__icon {
+    flex: 1 0 auto;
+  margin: 32px;
+}
+.services__cards__text{
+    flex: 1 0 auto;
+    margin: 32px;
+
+}
