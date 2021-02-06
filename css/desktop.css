@@ -25,9 +25,10 @@
     justify-content: center; 
   
 }
-.desk-img{
+.desk-img{overflow: hidden;
   width: 954px;
   margin-left: -257px;
+
 }
   
  @media (max-width:600px) {
