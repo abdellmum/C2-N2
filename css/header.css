@@ -14,9 +14,16 @@
         align-items: center;
         padding: 25px;
 }
+.pa{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;  
+}
 .firstt{
         font-size: 38px;
         font-family: semi-bold;
+        
 }
     .buttons{
         display: flex;
@@ -59,12 +66,42 @@
         opacity: 0.5;
         font-size: 18px;
         font-family: regular;
+        text-align: center;
 }
 .firstp{
+        width: 537px;
         margin-top: 10px;
         opacity: 0.5;
         font-size: 18px;
         font-family: regular;
     
 
+}
+@media screen and (max-width: 600px){
+        .buttons{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+               
+                
+        }
+        .mac{
+                margin-left: 0%;
+        }
+        .ios{
+                margin-right: 0%;
+        }
+         .firstp{
+                width: 287px;
+                margin-left: 23px;
+                
+        }
+        
+        .txt{
+                width: 24%;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+        }
 }
