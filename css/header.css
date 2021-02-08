@@ -25,6 +25,12 @@
         font-family: semi-bold;
         
 }
+.parag1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+}
     .buttons{
         display: flex;
         flex-direction: row;
@@ -46,6 +52,7 @@
 }
 .ios:hover{
         box-shadow: 0 7px 14px hsl(171, 66%, 44%);
+        cursor: pointer;
 }
 .mac{
         background-color: hsl(233, 100%, 69%);
@@ -57,10 +64,12 @@
         margin-left: 12Px;
         margin-top: 10px;
         transition-duration: 0.5s;
+        cursor: pointer;
         
 }
 .mac:hover{
         box-shadow: 0 7px 14px hsl(233, 100%, 69%);
+        cursor: pointer;
 }
 .access{
         opacity: 0.5;
@@ -69,7 +78,7 @@
         text-align: center;
 }
 .firstp{
-        width: 537px;
+        
         margin-top: 10px;
         opacity: 0.5;
         font-size: 18px;
@@ -93,13 +102,13 @@
                 margin-right: 0%;
         }
          .firstp{
-                width: 287px;
-                margin-left: 23px;
+               
+                margin-left: 0;
                 
         }
         
         .txt{
-                width: 24%;
+                width: 62%;
                 justify-content: center;
                 align-content: center;
                 text-align: center;
