@@ -33,18 +33,10 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 4rem;
-  margin-top: 4rem;
-  width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    justify-content: space-around;
   
 }
-@media (max-width: 600px){
-  .brand{
- margin-top: 2rem;
-  }
-}
+.brand{
   
- 
+    margin-right: 7rem;
+}
 
