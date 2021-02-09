@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html body{
+    width: auto;
+     height: auto;
+     margin: 0 auto;
+ }
+.header{
+    margin:0 auto;
+    background-image: url("/images/bg-header-desktop.png");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    font-family: 'Bai Jamjuree', sans-serif; 
+}
+.flogo{
+    height: auto;
+    padding: 25px;
+}
+.header__logo{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 25%;
+    margin-top: 40px;
+}
+
+.sms{
+    font-family: 'Bai Jamjuree', sans-serif; 
+}
+
+
+.percent{
+    height: auto;
+    position: relative;
+    margin-top: 20px;
+    height: 40px;
+    width:50%;
+    background-color:#000000 ;
+    border-radius: 25px;
+}
+
+ .progress{
+    height: auto;
+    height: 32px;
+    position: absolute;
+    top: 5px;
+    background: linear-gradient(to left, #5FFBF1, #6BF6D5, #7FEFB7, #96E79A);
+    left: 4px;
+    border-radius: 25px;
+    animation: animate 10s ease-in-out;
+
+}
+
+.btn{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 17%;
+}
+
+.pause{
+    height: 32px;
+    width: 85px;
+    color: white;
+    background-color: #ED4848;
+    margin-left: 10px;
+    border-radius: 16px;
+    font-size: 10px;
+    text-align: center;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-top: 8px;
+    font-size: large;
+}
+.pause:hover{
+    box-shadow: 0 6px 12px rgb(160, 158, 158);
+}
+
+.cancel:hover{
+    box-shadow: 0 6px 12px rgb(160, 158, 158);
+}
+
+
+.cancel{
+    height: 32px;
+    width: 85px;
+    color: white;
+    background-color: #ED4848;
+    margin-left: 10px;
+    border-radius: 16px;
+    font-size: 10px;
+    text-align: center;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-top: 8px;
+    font-size: large;
+}
+
+
+p{
+    margin-top: 4px;
+}
+
+@keyframes animate{
+    from{
+        width: 0%;
+    }
+}
+
+
+
+
+
