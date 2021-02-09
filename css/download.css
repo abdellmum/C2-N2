@@ -68,12 +68,10 @@ html body{
 
 .btn{
     height: auto;
-
     display: flex;
-    
     flex-direction: row;
     position: absolute;
-    left: 39%;
+    left: 17%;
 }
 
 .pause{
