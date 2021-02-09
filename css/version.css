@@ -1,0 +1,36 @@
+.version{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.btn:link,
+.btn:visited{
+       text-transform: uppercase;
+       text-decoration: none;
+       padding: 13px 30px;
+       display: inline-block;
+       border-radius: 60px;
+       background-color: hsl(171, 66%, 44%);
+       color: white;
+       font-size: 14px;
+}
+ .btn:hover{
+    transform: translateY(-5px);
+   box-shadow: 0 10px 20px hsla(171, 66%, 44%, 0.479);
+} 
+
+.btn1:link,
+.btn1:visited{
+       text-transform: uppercase;
+       text-decoration: none;
+       padding: 13px 30px;
+       display: inline-block;
+       border-radius: 60px;
+       background-color: hsl(233, 100%, 69%);
+       color: white;
+       font-size: 14px;
+
+}
+ .btn1:hover{
+   transform: translateY(-5px);
+   box-shadow: 0 10px 20px hsla(233, 100%, 69%, 0.479);
