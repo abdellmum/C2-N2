@@ -5,6 +5,12 @@
   text-align: center;
   margin-bottom: 8rem;
 }
+.desktop__title h2{
+  margin-bottom: 10px;
+}
+.desktop__title p{
+  line-height: 20px;
+}
 .desktop__icons{
   display: flex;
 }
