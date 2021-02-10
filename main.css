@@ -14,3 +14,528 @@ html body{
     height: auto;
     margin: 0 auto;
 }
+/* section header by  El Hilali hamza*/
+.header{
+    background-image: url("/images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+}
+.flogo{
+    padding: 25px;
+}
+
+
+.header__logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+
+.pa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.firstt{
+    font-size: 38px;
+    font-family: semi-bold;   
+}
+
+
+.parag1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    width: 150px;
+    height: 32px;
+    border: none;
+    border-radius: 12px;
+    margin-right: 10Px;
+    margin-top: 12px;
+    transition-duration: 0.5s;   
+}
+
+
+.ios:hover{
+    box-shadow: 0 7px 14px hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    width: 150px;
+    height: 32px;
+    border: none;
+    border-radius: 12px;
+    margin-left: 12Px;
+    margin-top: 10px;
+    transition-duration: 0.5s;
+    cursor: pointer;   
+}
+
+
+.mac:hover{
+    box-shadow: 0 7px 14px hsl(233, 100%, 69%);
+    cursor: pointer;
+}
+
+
+.access{
+    opacity: 0.5;
+    font-size: 18px;
+    font-family: regular;
+    text-align: center;
+}
+
+
+
+.firstp{
+    
+    margin-top: 10px;
+    opacity: 0.5;
+    font-size: 18px;
+    font-family: regular;
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    .buttons{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+    }
+
+
+
+    .mac{
+            margin-left: 0%;
+    }
+
+
+
+    .ios{
+            margin-right: 0%;
+    }
+
+
+
+     .firstp{     
+            margin-left: 0;     
+    }
+
+    
+    .txt{
+            width: 62%;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+    }
+}
+
+/* section desktop by abdessamad */
+
+.desktop__title{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 8rem;
+  }
+  .desktop__icons{
+    display: flex;
+  }
+  .desktop__icons1{
+    margin-bottom:30px ;
+  }
+  .desktop__icons2{
+    margin-bottom:30px ;
+  }
+  .desktop__icons3{
+    margin-bottom: 175px;
+  }
+  .desktop__icons-all{
+     margin-left: auto;
+    margin-right: auto;
+    display: flex;
+      flex-direction: column;
+      justify-content: center; 
+    
+  }
+  .desk-img{overflow: hidden;
+    width: 954px;
+    margin-left: -257px;
+    overflow: hidden;
+  
+  }
+    
+   @media (max-width:600px) {
+    .desktop__icons{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+  .desktop__icons-all {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .desk-img{
+    width: 954px;
+    margin-left: 0px !important;
+    
+  }
+  .desktop__description-container-image{
+    
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+      
+    
+  }
+   }
+
+   /* section tablet by El Abdi hamza */
+/* section services,brand & download by Nouaouri */
+.services{
+    width: 100%;
+    height: auto;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     margin-bottom: 2rem;
+  
+ }
+ .services__general{
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
+ .services__cards{
+     display: flex;
+   flex-direction: column;
+   align-items: auto;
+ } .services__cards__icon {
+     flex: 0;
+   margin: 1rem;
+ }
+ .services__cards__text{
+     flex: 1 0 auto;
+     margin: 0px;
+ 
+ }
+ 
+ .services__brands{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 4rem;
+   margin-top: 4rem;
+   width: 100%;
+     height: auto;
+     flex-wrap: wrap;
+     justify-content: space-around;
+   
+ }
+ @media (max-width: 600px){
+   .brand{
+  margin-top: 2rem;
+   }
+ }
+   /* section version by Nouaouri */
+   .version{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.btn:link,
+.btn:visited{
+       text-transform: uppercase;
+       text-decoration: none;
+       padding: 13px 30px;
+       display: inline-block;
+       border-radius: 60px;
+       background-color: hsl(171, 66%, 44%);
+       color: white;
+       font-size: 14px;
+}
+ .btn:hover{
+    transform: translateY(-5px);
+   box-shadow: 0 10px 20px hsla(171, 66%, 44%, 0.479);
+} 
+
+.btn1:link,
+.btn1:visited{
+       text-transform: uppercase;
+       text-decoration: none;
+       padding: 13px 30px;
+       display: inline-block;
+       border-radius: 60px;
+       background-color: hsl(233, 100%, 69%);
+       color: white;
+       font-size: 14px;
+
+}
+ .btn1:hover{
+   transform: translateY(-5px);
+   box-shadow: 0 10px 20px hsla(233, 100%, 69%, 0.479);
+  
+ }
+ /* section footer by nouaouri */
+ .footer{
+    width: 100%;
+height: auto;
+margin-bottom: 0;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: hsl(201, 32%, 91%);
+    align-items: center;
+}
+.footer__text{
+    width: 65%;
+    display: flex;
+    margin-top: 35px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 1rem;
+    
+} 
+.footer__items {
+    width: 10%;
+    display: flex;
+    justify-content:space-between;
+    align-items: stretch;
+
+}
+.footer__logo{
+    width: 2rem;
+    height: 2rem;
+}
+.footer__icon{
+    width: 1rem;
+    height: 1rem;
+}
+
+.items__column{
+    display: flex;
+    flex-direction: column;
+}
+.footer__items__text{
+    margin-bottom: 1rem;
+}
+
+.footer__items__text:hover {
+    
+    color:hsl(171, 66%, 44%);
+        font-size: 80%;
+        cursor: pointer;
+    
+}
+.footer__icon:hover{
+    
+    cursor: pointer;
+    background-color: chartreuse;
+
+}
+
+@media (max-width:600px) {
+  .footer{
+      width: 100%;
+      flex-direction: column;
+      
+  }
+  .footer__text{
+      width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    
+    text-align: center;
+  }
+  .install__guide{
+      margin-top:1rem;
+      letter-spacing: 5px;
+  }
+  .footer__icon{
+      margin-left: 2rem;
+  }
+  .footer__logo{
+    margin-left: 0.7rem;
+  }
+  .services__brands{
+      flex-direction: column;
+
+  }
+  
+    }
+    /* page download.html by El Abdi hamza */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    html body{
+        width: auto;
+         height: auto;
+         margin: 0 auto;
+     }
+    .header{
+        margin:0 auto;
+        background-image: url("/images/bg-header-desktop.png");
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        font-family: 'Bai Jamjuree', sans-serif; 
+    }
+    .flogo{
+        height: auto;
+        padding: 25px;
+    }
+    .header__logo{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+    }
+    
+    
+    .container{
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: 25%;
+        margin-top: 40px;
+    }
+    
+    .sms{
+        font-family: 'Bai Jamjuree', sans-serif; 
+    }
+    
+    
+    .percent{
+        height: auto;
+        position: relative;
+        margin-top: 20px;
+        height: 40px;
+        width:50%;
+        background-color:#000000 ;
+        border-radius: 25px;
+    }
+    
+     .progress{
+        height: auto;
+        height: 32px;
+        position: absolute;
+        top: 5px;
+        background: linear-gradient(to left, #5FFBF1, #6BF6D5, #7FEFB7, #96E79A);
+        left: 4px;
+        border-radius: 25px;
+        animation: animate 10s ease-in-out;
+    
+    }
+    
+    .btn{
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 17%;
+    }
+    
+    .pause{
+        height: 32px;
+        width: 85px;
+        color: white;
+        background-color: #ED4848;
+        margin-left: 10px;
+        border-radius: 16px;
+        font-size: 10px;
+        text-align: center;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        margin-top: 8px;
+        font-size: large;
+    }
+    .pause:hover{
+        box-shadow: 0 6px 12px rgb(160, 158, 158);
+    }
+    
+    .cancel:hover{
+        box-shadow: 0 6px 12px rgb(160, 158, 158);
+    }
+    
+    
+    .cancel{
+        height: 32px;
+        width: 85px;
+        color: white;
+        background-color: #ED4848;
+        margin-left: 10px;
+        border-radius: 16px;
+        font-size: 10px;
+        text-align: center;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        margin-top: 8px;
+        font-size: large;
+    }
+    
+    
+    p{
+        margin-top: 4px;
+    }
+    
+    @keyframes animate{
+        from{
+            width: 0%;
+        }
+    }
+    
+    
+    
+    
+    
+    
+ 
+ 
