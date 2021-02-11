@@ -107,6 +107,11 @@
 
 
 @media screen and (max-width: 600px){
+        .header{
+               
+                background-image: url(/images/bg-header-mobile.png);
+                background-repeat: no-repeat;
+        }
 
         .buttons{
                 display: flex;
