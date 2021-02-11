@@ -226,31 +226,31 @@
    }
 
    /* section tablet by El Abdi hamza */
-   .tablette{
-    width: 100%;
-}
+    .tablette{
+       width: 100%;
+   }
 
-.tablette__tittle {
-    text-align: center;
-    margin-top: 80px;
-}
+   .tablette__tittle {
+       text-align: center;
+       margin-top: 80px;
+   }
 
-.tablette__tittle p{
- line-height: 25px;
-}
+   .tablette__tittle p{
+    line-height: 25px;
+   }
 
-.tablette__img img{
-    text-align: center;
-    width: 100%;
-    margin-top: 20px;
-}
+   .tablette__img img{
+       text-align: center;
+       width: 100%;
+       margin-top: 20px;
+   }
 
-@media (max-width:600px){
- .tablette__tittle {
-     margin-top: 0;
- } 
-}
-
+   @media (max-width:600px){
+    .tablette__tittle {
+        margin-top: 0;
+    } 
+   }
+   
 /* section services,brand & download by Nouaouri */
 .services{
     width: 100%;
@@ -341,7 +341,7 @@
  /* section footer by nouaouri */
  .footer{
     width: 100%;
-height: auto;
+height: 200px;
 margin-bottom: 0;
     display: flex;
     margin-top: 50px;
@@ -474,80 +474,39 @@ margin-bottom: 0;
     
     .sms{
         font-family: 'Bai Jamjuree', sans-serif; 
+        text-align: center;
     }
     
     
     .percent{
-        height: auto;
         position: relative;
         margin-top: 20px;
         height: 40px;
         width:50%;
-        background-color:#000000 ;
+        left: 24%;
+        background-color:#313131 ;
         border-radius: 25px;
+        text-align: center;
+        margin-bottom: 25px;
     }
     
      .progress{
-        height: auto;
         height: 32px;
         position: absolute;
         top: 5px;
         background: linear-gradient(to left, #5FFBF1, #6BF6D5, #7FEFB7, #96E79A);
         left: 4px;
         border-radius: 25px;
-        animation: animate 10s ease-in-out;
-    
-    }
-    
-    .btn{
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        left: 17%;
-    }
-    
-    .pause{
-        height: 32px;
-        width: 85px;
-        color: white;
-        background-color: #ED4848;
-        margin-left: 10px;
-        border-radius: 16px;
-        font-size: 10px;
+        animation: animate 15s ease-in-out;
         text-align: center;
-        transition-duration: 0.5s;
-        cursor: pointer;
-        margin-top: 8px;
-        font-size: large;
-    }
-    .pause:hover{
-        box-shadow: 0 6px 12px rgb(160, 158, 158);
+    
     }
     
-    .cancel:hover{
-        box-shadow: 0 6px 12px rgb(160, 158, 158);
-    }
-    
-    
-    .cancel{
-        height: 32px;
-        width: 85px;
-        color: white;
-        background-color: #ED4848;
-        margin-left: 10px;
-        border-radius: 16px;
-        font-size: 10px;
-        text-align: center;
-        transition-duration: 0.5s;
-        cursor: pointer;
-        margin-top: 8px;
-        font-size: large;
-    }
-    
-    
-    p{
-        margin-top: 4px;
+    .progress p{
+     margin-top: 8px;
+     display: flex;
+     margin-left: 10px;
+     font-size: large;
     }
     
     @keyframes animate{
