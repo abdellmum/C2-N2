@@ -321,6 +321,7 @@ margin-bottom: 0;
     justify-content: space-around;
     background-color: hsl(201, 32%, 91%);
     align-items: center;
+    margin: 0;
 }
 .footer__text{
     width: 65%;
@@ -346,6 +347,7 @@ margin-bottom: 0;
 .footer__icon{
     width: 1rem;
     height: 1rem;
+    fill: aqua;
 }
 
 .items__column{
@@ -527,6 +529,8 @@ margin-bottom: 0;
         }
     }
     
+  
+ 
     
     
     
