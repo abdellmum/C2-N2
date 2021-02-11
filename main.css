@@ -4,10 +4,13 @@
     margin:  0;
     padding: 0;
 }
-html body{
-   width: auto;
+
+ body{
+   
+}
+.container{
+    width: 100%;
     height: auto;
-    margin: 0 auto;
 }
 /* section header by  El Hilali hamza*/
 .header{
@@ -441,7 +444,6 @@ margin-bottom: 0;
         width: 100%;
         height: auto;
         position: relative;
-        left: 25%;
         margin-top: 40px;
     }
     
