@@ -50,7 +50,8 @@ html body{
     margin-top: 20px;
     height: 40px;
     width:50%;
-    background-color:#000000 ;
+    background-color:#FFF ;
+    border: 2px solid #000;
     border-radius: 25px;
 }
 
@@ -62,7 +63,7 @@ html body{
     background: linear-gradient(to left, #5FFBF1, #6BF6D5, #7FEFB7, #96E79A);
     left: 4px;
     border-radius: 25px;
-    animation: animate 10s ease-in-out;
+    animation: animate 20s ease-in-out;
 
 }
 

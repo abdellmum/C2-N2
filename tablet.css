@@ -28,12 +28,10 @@
     height: auto;
 }
 
-@media (max-width:340px){
+@media (min-width:900px){
     .tablette__img img{
-        object-fit: contain;
-        width: auto;
-        margin: auto;
-        padding: auto;
+      width: auto;
+      margin-left: 0px !important;
     }
 
 }
