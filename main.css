@@ -226,6 +226,31 @@
    }
 
    /* section tablet by El Abdi hamza */
+   .tablette{
+    width: 100%;
+}
+
+.tablette__tittle {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.tablette__tittle p{
+ line-height: 25px;
+}
+
+.tablette__img img{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width:600px){
+ .tablette__tittle {
+     margin-top: 0;
+ } 
+}
+
 /* section services,brand & download by Nouaouri */
 .services{
     width: 100%;
