@@ -70,6 +70,7 @@ h3 h4 h5 h6 p *{
     flex-direction: row;
     justify-content: center;
     align-items: center;   
+    margin-bottom: 10px;
 }
 
 
@@ -391,6 +392,7 @@ margin-bottom: 0;
 
 .items__column{
     display: flex;
+    line-height: 20px;
     flex-direction: column;
 }
 .footer__items__text{
@@ -487,6 +489,7 @@ margin-bottom: 0;
     .sms{
         font-family: 'Bai Jamjuree', sans-serif; 
         text-align: center;
+        margin-top: 10px;
     }
     
     
@@ -529,7 +532,14 @@ margin-bottom: 0;
     
   
  
-    
+    @media (max-width:600px) {
+        .items__column{
+            line-height: 20px;
+           
+           
+        }
+        
+          }
     
     
     
