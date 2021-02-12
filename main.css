@@ -517,7 +517,14 @@ margin-bottom: 0;
     
   
  
-    
+    @media (max-width:600px) {
+        .items__column{
+            line-height: 0;
+           
+           
+        }
+        
+          }
     
     
     
