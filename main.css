@@ -16,6 +16,7 @@
 .header{
     background-image: url("images/bg-header-desktop.png");
     background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Bai Jamjuree', sans-serif;
     
 }
@@ -403,6 +404,7 @@ margin-bottom: 0;
 @media (max-width:600px) {
   .footer{
       width: 100%;
+      height: auto;
       flex-direction: column;
       
   }
@@ -469,7 +471,7 @@ margin-bottom: 0;
         width: 100%;
         height: auto;
         position: relative;
-        margin-top: 40px;
+
     }
     
     .sms{
